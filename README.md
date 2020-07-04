@@ -12,7 +12,7 @@ The project makes use of Python3, Flask, SQLite, Bootstrap and JQuery.
 
 ## Getting Started
 
-git clone https://github.com/zacclery/Flask-ToDo-List.git && cd todo_app
+git clone git@github.com:deepak-kandel/flask_todo_app.git && cd flask_todo_app
 
 ##### Create virtualenv and activate
 
@@ -22,11 +22,3 @@ export FLASK_APP=app.py
 flask run  #flask run --host=0.0.0.0 (if require server to be publicly accessible)  
 
 Navigate to: http://localhost:5000/
-
-## Authors
-
-**Zac Clery**
-
-## License
-
-This project is licensed under the MIT License
