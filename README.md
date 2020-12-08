@@ -15,10 +15,12 @@ The project makes use of Python3, Flask, SQLite, Bootstrap and JQuery.
 git clone git@github.com:deepak-kandel/flask_todo_app.git && cd flask_todo_app
 
 ##### Create virtualenv and activate
-
+```
 pip3 install -r requirements.txt
+```
 
-export FLASK_APP=app.py  
+``` export FLASK_APP=app.py  
+```
 flask run  #flask run --host=0.0.0.0 (if require server to be publicly accessible)  
 
 Navigate to: http://localhost:5000/
